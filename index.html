@@ -832,7 +832,7 @@
                                         </div>
                                         <div class="each-info">
                                             <h4>Email</h4>
-                                            <a href="mailto:yourmail@email.com" class="text-white">nabil.elbilali97@gmail.com</a><br>
+                                            <a href="mailto:nabil.elbilali97@gmail.com" class="text-white">nabil.elbilali97@gmail.com</a><br>
                                             
                                         </div>
                                     </div>
@@ -851,9 +851,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                            <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" enctype="text/plain">
+                            <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator" action="https://formsubmit.co/nabil.elbilali97@gmail.com" method='POST'>
+                               
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <input name="name" class="contact-name form-control" id="name" type="text" placeholder="First Name" required>
@@ -869,7 +869,10 @@
                                     </div>
                                     <!-- Subject Button -->
                                     <div class="btn-form col-sm-12">
-                                        <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
+                                        <button type="submit" class=" btn btn-fill btn-block" style='color:#00bb90;' id="form-submit">Send Email</button>
+                                    </div>
+                                    <div class="btn-form col-sm-12">
+                                        <button type="reset" value="Reset" class="btn  btn-fill btn-block" style="color:#00bb90">Reset</button>
                                     </div>
                                 </div>
                             </form>
